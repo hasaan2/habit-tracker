@@ -4,18 +4,43 @@ Nizam is a premium, matte-black and gold habit tracking dashboard built to help 
 
 ---
 
-## 1. How to Run
+## 1. Live Deployment
 
-```bash
-npm install
-npm run dev
-```
+The application is deployed and live for immediate access:
 
-Open `http://localhost:5173` in your browser.
+👉 **[Live App Link](https://habit-tracker.hasaanahmedrana1.workers.dev/)** (Deployed via Cloudflare Pages)
 
 ---
 
-## 2. Technology Stack & Design
+## 2. Running Locally
+
+If you wish to clone and run the application locally on your machine, follow these steps:
+
+### Step 1: Clone the Repository
+Clone the repository using Git and navigate into the project directory:
+```bash
+git clone https://github.com/hasaanahmedrana1/habit-tracker.git
+cd habit-tracker
+```
+
+### Step 2: Install Dependencies
+Install all the required npm packages (requires Node.js 18+):
+```bash
+npm install
+```
+
+### Step 3: Start the Development Server
+Launch the local Vite server:
+```bash
+npm run dev
+```
+
+### Step 4: Open in Browser
+Once the server is running, open your browser and go to the local host address shown in your terminal (typically **`http://localhost:5173`**).
+
+---
+
+## 3. Technology Stack & Design
 
 - **React & Vite**: Built for a fast development loop and a highly responsive single-page experience.
 - **Vanilla CSS**: Used custom CSS variables to build a polished, high-performance, dark glassmorphism design system from scratch.
@@ -23,7 +48,7 @@ Open `http://localhost:5173` in your browser.
 
 ---
 
-## 3. Key Enhancements & Features
+## 4. Key Enhancements & Features
 
 Here are the key improvements made to Nizam:
 
@@ -37,7 +62,7 @@ Here are the key improvements made to Nizam:
 
 ---
 
-## 4. AI Tools Used
+## 5. AI Tools Used
 
 - **Gemini**: Used for designing and suggesting the 3D-style logo.
 - **Antigravity**: Used as a pair-programmer for developing the React components, logic, and CSS code.
