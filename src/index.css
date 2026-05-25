@@ -1220,6 +1220,34 @@ body::before {
   .nav-buttons { width: 100%; justify-content: center; }
   .header h1 { font-size: 2rem; }
   .header { margin-bottom: 32px; }
+
+  /* Stack input and button vertically on mobile */
+  .form-row {
+    flex-direction: column;
+    border: none;
+    background: transparent;
+    gap: 10px;
+  }
+  .habit-input {
+    border: 1px solid var(--border-subtle);
+    background: rgba(20, 20, 20, 0.5);
+    border-radius: var(--radius-md);
+    width: 100%;
+    min-width: 0;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .habit-input:focus {
+    border-color: var(--gold-border-strong);
+    box-shadow: 0 0 0 3px var(--gold-faint);
+  }
+  .add-btn {
+    border-radius: var(--radius-md);
+    width: 100%;
+    padding: 14px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media (pointer: coarse) {
   .row-actions { opacity: 1; }
